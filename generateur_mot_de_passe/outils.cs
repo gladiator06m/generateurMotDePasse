@@ -25,6 +25,7 @@ namespace formationCS
             Console.WriteLine("ERREUR : Le nombre doit être compris entre " + min + " et " + max);
 
             return DemanderNombreEntre(question, min, max);
+            Console.WriteLine();
         }
 
         public static int DemanderNombre(string question)
@@ -46,6 +47,7 @@ namespace formationCS
                 catch
                 {
                     Console.WriteLine("ERREUR : Vous devez rentrer un nombre");
+                    Console.WriteLine();
                 }
             }
         }
